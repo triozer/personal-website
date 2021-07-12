@@ -1,0 +1,9 @@
+@import "./vars";
+
+@for $i from 1 through 6 {
+  h#{$i} {
+    color: #000000;
+    font-weight: 600;
+    margin: 0;
+  }
+}

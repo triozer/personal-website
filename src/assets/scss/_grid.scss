@@ -1,0 +1,17 @@
+@import "vars";
+
+.two-columns {
+  display: grid;
+  grid-template-columns: 0.75fr 2fr 0.25fr;
+  grid-template-rows: 1fr;
+  grid-template-areas: "left right";
+  grid-column-gap: 75px;
+}
+
+.column-left {
+  grid-template: "left";
+}
+
+.column-right {
+  grid-template: "right";
+}
