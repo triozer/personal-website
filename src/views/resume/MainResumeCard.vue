@@ -2,10 +2,10 @@
   <card id="resume">
     <template #subtitle>Digital Enthusiast</template>
     <div class="content">
-      <span class="main-title">
+      <h2 class="main-title">
         I’m Cédric Boirard, a twenty-year-old computer science student based in
         Paris.
-      </span>
+      </h2>
       <div>
         <a
           href="mailto:hello@imcedric.space"

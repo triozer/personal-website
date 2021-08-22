@@ -2,11 +2,11 @@
   <card id="about">
     <template #subtitle>"Creativity is contagious. Pass it on."</template>
     <div class="content">
-      <span class="main-title">
+      <h2 class="main-title">
         I’m Cédric Boirard, a twenty-year-old computer science student based in
         Paris.<br />
         Currently working as a Full Stack Engineer at Scortex.
-      </span>
+      </h2>
       <div class="text">
         I have always dreamed of a world where all my ideas would come alive ;
         new technologies have answered my call. They gave me the tools I needed

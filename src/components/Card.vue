@@ -4,7 +4,9 @@
       <h4 class="title">
         <slot name="title">{{ id }}</slot>
       </h4>
-      <div class="subtitle"><slot name="subtitle"></slot></div>
+      <div v-if="$slots['subtitle']" class="subtitle">
+        <slot name="subtitle"></slot>
+      </div>
     </div>
     <div class="content"><slot></slot></div>
   </section>

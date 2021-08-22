@@ -2,7 +2,7 @@
   <header class="app-header">
     <div class="title">
       <router-link :to="{ name: 'home' }">
-        im<span class="subtitle">cedric</span>
+        <h1>im<span class="subtitle">cedric</span></h1>
       </router-link>
     </div>
 
@@ -29,6 +29,7 @@ header {
   font-size: 1.5rem;
 
   .title {
+    font-size: 0.75rem;
     grid-template: "home";
 
     .subtitle {
@@ -42,6 +43,8 @@ header {
     display: flex;
     flex-direction: row;
     gap: 5rem;
+
+    line-height: 1.1rem;
 
     a {
       font-weight: lighter;
